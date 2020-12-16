@@ -17,6 +17,8 @@ export default function App() {
       alert("year can't be empty");
     } else if (getinput.length < 4) {
       alert("year is never less than 4 digit");
+    } else if (getinput.length > 5) {
+      alert("year is never greater than 5  digit");
     } else {
       var result = checkyear(getinput);
       if (result === true) {
