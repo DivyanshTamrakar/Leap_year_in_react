@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  background-color: grey;
+}
+.input {
+  width: 80%;
+  height: 10vh;
+  text-align: center;
+  font-size: 2rem;
+}
+.margin {
+  margin: 1rem;
+}
+.header {
+  background-color: royalblue;
+  color: white;
+  padding: 1px;
+}
+.input-element {
+  margin-top: 0.1rem;
+  background-color: red;
+}
+.output {
+  border: 1px solid black;
+  height: 20vh;
+  background-color: yellow;
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+}
+.button {
+  font-size: 1rem;
+  border: 1px solid orange;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: royalblue;
+  color: white;
+  font-weight: bold;
+}
